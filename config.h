@@ -44,9 +44,10 @@ static const unsigned int alphas[][3] = {
     [SchemeSel]  = { OPAQUE, baralpha, borderalpha },
 };
 
-/* tagging */
+/* tagging with emojis */
 static const char *tags[] = { "\uf121", "", "", "", ""};
-/*static const char *tags[] = { "", "", "", "", "", "", "", "", "" };*/
+/* tagging with numbers */
+/*static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7"};*/
 
 /* startup command */
 static const char startup[] = "$HOME/.local/bin/autostart";
