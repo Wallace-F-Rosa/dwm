@@ -9,8 +9,8 @@
 sudo make clean install
 
 #Customization
-    *Edit the config.h to suit your needs or apply patches with git apply patch.diff.
-    *sudo make install
+    * Edit the config.h to suit your needs or apply patches with git apply patch.diff.
+    * sudo make install
 
 #Info
     For more information on dwm:
