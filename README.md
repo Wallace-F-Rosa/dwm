@@ -8,10 +8,10 @@
 # Installation
 sudo make clean install
 
-#Customization
+# Customization
     * Edit the config.h to suit your needs or apply patches with git apply patch.diff.
     * sudo make install
 
-#Info
+# Info
     For more information on dwm:
     https://dwm.suckless.org/
