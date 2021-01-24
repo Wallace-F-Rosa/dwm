@@ -15,3 +15,14 @@ Xlib hearder files, the make build tool and a C language compiler.
 # Info
 For more information on dwm:
 [DWM](https://dwm.suckless.org/)
+
+# Patches that this build includes
+* [awesomebar](https://dwm.suckless.org/patches/awesomebar/)
+* [uselessgap](https://dwm.suckless.org/patches/uselessgap/)
+* [statuspadding](https://dwm.suckless.org/patches/statuspadding/)
+* [rotatestack](https://dwm.suckless.org/patches/rotatestack/)
+* [restartsig](https://dwm.suckless.org/patches/restartsig/)
+* [gridmode](https://dwm.suckless.org/patches/gridmode/)
+* [cyclelayouts](https://dwm.suckless.org/patches/cyclelayouts/)
+* [attachaside](https://dwm.suckless.org/patches/attachaside/)
+* [alpha](https://dwm.suckless.org/patches/alpha/)
