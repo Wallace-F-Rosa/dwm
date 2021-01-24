@@ -9,7 +9,7 @@ Xlib hearder files, the make build tool and a C language compiler.
 ```sudo make clean install```
 
 # Customization
-* Edit the config.h to suit your needs or apply patches with git apply patch.diff.
+* Edit the config.h file to suit your needs or apply patches with ```git apply patch.diff```.
 * ```sudo make install```
 
 # Info
