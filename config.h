@@ -1,8 +1,5 @@
-/*  ____ _____  */
-/* |  _ \_   _|  Derek Taylor (DistroTube) */
-/* | | | || |  	http://www.youtube.com/c/DistroTube */
-/* | |_| || |  	http://www.gitlab.com/dwt1/ */
-/* |____/ |_|  	*/ 
+/*  ____ References _____ :  */
+/* distrotube channal : http://www.youtube.com/c/DistroTube http://www.gitlab.com/dwt1/ */
 
 /* See LICENSE file for copyright and license details. */
 /* appearance */
