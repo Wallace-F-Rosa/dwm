@@ -19,9 +19,10 @@ static const int vertpadbar        = 7;   /* vertical padding for statusbar */
  * a hard dependency and makes colored fonts and emojis possible.
  */
 static const char *fonts[]     = {
-    "Noto Color Emoji:size=10:antialias=true:autohint=true",
-    "Mononoki Nerd Font:size=10:antialias=true:autohint=true",
-    "Hack:size=10:antialias=true:autohint=true",
+    "Noto Color Emoji:size=11:antialias=true:autohint=true",
+    "Mononoki Nerd Font:size=11:antialias=true:autohint=true",
+    "Hack:size=11:antialias=true:autohint=true",
+    "FontAwesome:size=12:antialias=true:autohint=true"
 };
 static const char col_1[]  = "#282c34"; /* background color of bar */
 static const char col_2[]  = "#282c34"; /* border color unfocused windows */
@@ -47,9 +48,11 @@ static const unsigned int alphas[][3] = {
 };
 
 /* tagging */
-static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+static const char *tags[] = { "\uf121", "", "", "", ""};
 /*static const char *tags[] = { "", "", "", "", "", "", "", "", "" };*/
 
+/* startup command */
+static const char startup[] = "$HOME/.local/bin/autostart";
 
 static const Rule rules[] = {
     /* xprop(1):
@@ -99,7 +102,7 @@ static const char *dmenucmd[]    = { "dmenu_run", "-p", "Run: ", NULL };
 static const char *termcmd[]     = { "x-terminal-emulator", NULL };
 /* An alternative way to launch st along with the fish shell */
 /* static const char *termcmd[]     = { "st", "-e fish", NULL }; */
-static const char *tabtermcmd[]  = { "tabbed", "-r", "2", "x-term-emulator", "-w", "''", NULL };
+static const char *tabtermcmd[]  = { "tabbed", "-r", "2", "x-terminal-emulator", "-w", "''", NULL };
 
 static Key keys[] = {
     /* modifier             key        function        argument */
