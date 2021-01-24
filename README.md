@@ -16,7 +16,7 @@ Xlib hearder files, the make build tool and a C language compiler.
 For more information on dwm:
 [DWM](https://dwm.suckless.org/)
 
-# Patches that this build includes
+# Patches included in this build
 * [awesomebar](https://dwm.suckless.org/patches/awesomebar/)
 * [uselessgap](https://dwm.suckless.org/patches/uselessgap/)
 * [statuspadding](https://dwm.suckless.org/patches/statuspadding/)
