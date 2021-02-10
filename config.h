@@ -45,7 +45,7 @@ static const unsigned int alphas[][3] = {
 };
 
 /* tagging with emojis */
-static const char *tags[] = { "\uf121", "", "", "", ""};
+static const char *tags[] = { "\uf121", "", "", "", "", ""};
 /* tagging with numbers */
 /*static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7"};*/
 
@@ -58,7 +58,7 @@ static const Rule rules[] = {
      *	WM_NAME(STRING) = title
      */
     /* class      instance    title       tags mask     isfloating   monitor */
-    { "Gimp",     NULL,       NULL,       0,            1,           -1 },
+    //{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
     { "Firefox",  NULL,       NULL,       0,       0,           -1 },
 };
 
@@ -97,10 +97,10 @@ static const char *dmenucmd[]    = { "dmenu_run", "-p", "Run: ", NULL };
 /* static const char *dmenucmd[]    = { "dmenu_run", "-g", "10", "-l", "48", "-p", "Run: ", NULL }; */
 
 /* the st terminal with tabbed */
-static const char *termcmd[]     = { "x-terminal-emulator", NULL };
+static const char *termcmd[]     = { "kitty", NULL };
 /* An alternative way to launch st along with the fish shell */
 /* static const char *termcmd[]     = { "st", "-e fish", NULL }; */
-static const char *tabtermcmd[]  = { "tabbed", "-r", "2", "x-terminal-emulator", "-w", "''", NULL };
+static const char *tabtermcmd[]  = { "tabbed", "-r", "2", "kitty", "-w", "''", NULL };
 
 static Key keys[] = {
     /* modifier             key        function        argument */
