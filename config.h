@@ -58,9 +58,14 @@ static const Rule rules[] = {
      *	WM_NAME(STRING) = title
      */
     /* class      instance    title       tags mask     isfloating   monitor */
-    //{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
-    { "Firefox",  NULL,       NULL,       0,       0,           -1 },
+    { "Gimp",     NULL,       NULL,       1<<4,            0,           -1 },
+    { "Firefox",  NULL,       NULL,       1<<1,            0,           -1 },
+    { "Telegram", NULL,       NULL,       1<<2,            0,           -1 },
+    { "nautilus", NULL,       NULL,       1<<4,            0,           -1 },
+    { "Spotify",  "spotify",       NULL,       1<<3,            0,           -1 },
+    { "obs", NULL,       NULL,       1<<5,            0,           -1 }
 };
+
 
 /* layout(s) */
 static const float mfact     = 0.50; /* factor of master area size [0.05..0.95] */
@@ -97,10 +102,10 @@ static const char *dmenucmd[]    = { "dmenu_run", "-p", "Run: ", NULL };
 /* static const char *dmenucmd[]    = { "dmenu_run", "-g", "10", "-l", "48", "-p", "Run: ", NULL }; */
 
 /* the st terminal with tabbed */
-static const char *termcmd[]     = { "kitty", NULL };
+static const char *termcmd[]     = { "x-terminal-emulator", NULL };
 /* An alternative way to launch st along with the fish shell */
 /* static const char *termcmd[]     = { "st", "-e fish", NULL }; */
-static const char *tabtermcmd[]  = { "tabbed", "-r", "2", "kitty", "-w", "''", NULL };
+static const char *tabtermcmd[]  = { "tabbed", "-r", "2", "x-terminal-emulator", "-w", "''", NULL };
 
 static Key keys[] = {
     /* modifier             key        function        argument */
