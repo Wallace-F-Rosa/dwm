@@ -45,7 +45,7 @@ static const unsigned int alphas[][3] = {
 };
 
 /* tagging with emojis */
-static const char *tags[] = { "\uf121", "", "", "", "", ""};
+static const char *tags[] = { "\uf121", "", "", "", "", "", "\uf11b", "\uf019"};
 /* tagging with numbers */
 /*static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7"};*/
 
@@ -62,8 +62,9 @@ static const Rule rules[] = {
     { "Firefox",  NULL,       NULL,       1<<1,            0,           -1 },
     { "Telegram", NULL,       NULL,       1<<2,            0,           -1 },
     { "nautilus", NULL,       NULL,       1<<4,            0,           -1 },
-    { "Spotify",  "spotify",       NULL,       1<<3,            0,           -1 },
-    { "obs", NULL,       NULL,       1<<5,            0,           -1 }
+    { "Spotify",  NULL,       NULL,       1<<3,            0,           -1 },
+    { "obs",      NULL,       NULL,       1<<5,            0,           -1 },
+    { "Lutris",   "lutris",   NULL,       1<<6,            0,           -1 }
 };
 
 
