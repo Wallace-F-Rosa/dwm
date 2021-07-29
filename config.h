@@ -8,8 +8,8 @@ static const unsigned int snap     = 32;  /* snap pixel */
 static const unsigned int gappx    = 0;   /* pixel gap between clients */
 static const int showbar           = 1;   /* 0 means no bar */
 static const int topbar            = 1;   /* 0 means bottom bar */
-static const int horizpadbar       = 2;   /* horizontal padding for statusbar */
-static const int vertpadbar        = 0;   /* vertical padding for statusbar */
+static const int horizpadbar       = 10;   /* horizontal padding for statusbar */
+static const int vertpadbar        = 10;   /* vertical padding for statusbar */
 static const int usealtbar          = 0;        /* 1 means use non-dwm status bar */
 static const char *altbarclass      = "Polybar"; /* Alternate bar class name */
 static const char *altbarcmd        = "$HOME/.local/bin/bar"; /* Alternate bar launch command */
@@ -63,7 +63,7 @@ static const Rule rules[] = {
     /* class      instance    title       tags mask     isfloating   monitor */
     { "Gimp",     NULL,       NULL,       1<<4,            0,           -1 },
     { "Firefox",  NULL,       NULL,       1<<1,            0,           -1 },
-    { "google-chrome",  "Google-chrome",       "Google Chrome",       1<<1,            0,           -1 },
+    { NULL,     NULL,       "Google Chrome",       1<<1,            0,           -1 },
     { "Telegram", NULL,       NULL,       1<<2,            0,           -1 },
     { "nautilus", NULL,       NULL,       1<<4,            0,           -1 },
     { "Spotify",  NULL,       NULL,       1<<3,            0,           -1 },
