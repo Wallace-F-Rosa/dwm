@@ -19,10 +19,8 @@ static const char *altbarcmd        = "$HOME/.local/bin/bar"; /* Alternate bar l
  * a hard dependency and makes colored fonts and emojis possible.
  */
 static const char *fonts[]     = {
-    "Noto Color Emoji:size=12:antialias=true:autohint=true",
-    "Mononoki Nerd Font:size=12:antialias=true:autohint=true",
-    "Hack:size=12:antialias=true:autohint=true",
-    "FontAwesome:size=12:antialias=true:autohint=true"
+    "Noto Color Emoji:size=13:antialias=true:autohint=true",
+    "FontAwesome:size=13:antialias=true:autohint=true"
 };
 static const char col_1[]  = "#282c34"; /* background color of bar */
 static const char col_2[]  = "#282c34"; /* border color unfocused windows */
@@ -110,10 +108,10 @@ static const char *dmenucmd[]    = { "dmenu_run", "-p", "Run: ", NULL };
 /* static const char *dmenucmd[]    = { "dmenu_run", "-g", "10", "-l", "48", "-p", "Run: ", NULL }; */
 
 /* the st terminal with tabbed */
-static const char *termcmd[]     = { "x-terminal-emulator", NULL };
+static const char *termcmd[]     = { "xfce4-terminal", NULL };
 /* An alternative way to launch st along with the fish shell */
 /* static const char *termcmd[]     = { "st", "-e fish", NULL }; */
-static const char *tabtermcmd[]  = { "tabbed", "-r", "2", "x-terminal-emulator", "-w", "''", NULL };
+static const char *tabtermcmd[]  = { "tabbed", "-r", "2", "xfce4-terminal", "-w", "''", NULL };
 
 static Key keys[] = {
     /* modifier             key        function        argument */
