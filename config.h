@@ -46,7 +46,7 @@ static const unsigned int alphas[][3] = {
 };
 
 /* tagging with emojis */
-   static const char *tags[] = { "\uf121", "", "", "", "", "", "\uf11b", ""};
+   static const char *tags[] = { "\uf121", "", "", "", "", "", "\uf11b", "", "\uf392"};
 /* tagging with numbers */
 /*static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7"};*/
 
